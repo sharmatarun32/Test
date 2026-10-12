@@ -1,0 +1,82 @@
+{
+ "pages": {
+  "PDF-1 (Matching)": 46,
+  "PDF-2 (Non-Matching)": 6
+ },
+ "perPdf": {
+  "PDF-1 (Matching)": 178,
+  "PDF-2 (Non-Matching)": 25
+ },
+ "total": 203,
+ "unique_ids": 203,
+ "single": 143,
+ "multiple": 60,
+ "flagged": {
+  "PD1-044": [
+   "possible duplicate of PD1-173"
+  ],
+  "PD1-062": [
+   "too few options"
+  ],
+  "PD1-071": [
+   "too few options"
+  ],
+  "PD1-120": [
+   "possible duplicate of PD1-185"
+  ],
+  "PD1-135": [
+   "low confidence",
+   "source text garbled"
+  ],
+  "PD1-162": [
+   "low confidence",
+   "source text garbled"
+  ],
+  "PD1-172": [
+   "low confidence",
+   "source text garbled"
+  ],
+  "PD1-173": [
+   "possible duplicate of PD1-044"
+  ],
+  "PD1-176": [
+   "low confidence",
+   "source text garbled"
+  ],
+  "PD1-177": [
+   "source text garbled"
+  ],
+  "PD1-178": [
+   "low confidence",
+   "source text garbled"
+  ],
+  "PD1-185": [
+   "possible duplicate of PD1-120"
+  ],
+  "PD1-186": [
+   "low confidence",
+   "source text garbled",
+   "unresolved"
+  ],
+  "PD1-198": [
+   "possible duplicate of PD1-200"
+  ],
+  "PD1-200": [
+   "possible duplicate of PD1-198"
+  ]
+ },
+ "duplicates": [
+  [
+   "PD1-044",
+   "PD1-173"
+  ],
+  [
+   "PD1-120",
+   "PD1-185"
+  ],
+  [
+   "PD1-198",
+   "PD1-200"
+  ]
+ ]
+}

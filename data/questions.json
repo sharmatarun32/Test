@@ -41,7 +41,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Which exception type cannot be caught?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-002",
@@ -86,7 +87,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer created a child Lightning web component nested inside a parent Lightning web component. The parent component needs to pass a string value to the child component. In which two ways can this be accomplished?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-003",
@@ -130,7 +132,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Flow Builder uses an Apex action to provide additional information about multiple Contacts, stored in a custom `ContactInfo`. Which is the correct definition of the Apex method that gets the additional information?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-004",
@@ -175,7 +178,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "When a user edits the Postal Code on an Account, a custom Account text field named \"Timezone\" must be updated based on the values in a `PostalCodeToTimezone__c` custom object. Which two automation tools can be used to implement this feature?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-005",
@@ -219,7 +223,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Which statement generates a list of Leads and Contacts that have a field with the phrase 'ACME'?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-006",
@@ -263,7 +268,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Which scenario is valid for execution by unit tests?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-007",
@@ -307,7 +313,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer is tasked with building a custom Lightning web component to collect Contact information. The form will be shared among many different types of users in the org. There are security requirements that only certain should be edited and viewed by certain groups of users. What should the developer use in their Lightning Web Component to support the security requirements?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-008",
@@ -352,7 +359,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Universal Containers decides to use purely declarative development to build out a new Salesforce application. Which two options can be used to build out the business logic layer for this application?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-009",
@@ -396,7 +404,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer created these three Rollup Summary fields in the custom object, Project__c: Total_Timesheets_c Total_Approved_Timesheets_c Total_Rejected_Timesheet_c The developer is asked to create a new field that shows the ratio between rejected and approved timesheets for a new field. Which should the developer use to implement the business requirement in order to minimize maintenance overhead?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-010",
@@ -440,7 +449,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer is asked to update code that requires them to validate input into a trigger. Which Apex Control Flow Statement should the developer use?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-011",
@@ -485,7 +495,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer wants to send an outbound message when a record meets a specific criteria. Which two features satisfy this use case?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-012",
@@ -530,7 +541,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Which two events need to happen when deploying to a production org?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-013",
@@ -574,7 +586,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A company has a custom object, Sales_Help_Request__c, that has a Lookup relationship to Opportunity. The Sales_Help_Request__c has a number field, Number_of_Hours__c, that represents the amount of time spent on Sales_Help_Request__c. A developer is tasked with creating a field, Total_Hours__c, on Opportunity that should be the sum of all of the Number_of_Hours__c values for the Sales_Help_Request__c records related to that Opportunity. What should the developer use to implement this?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-014",
@@ -626,7 +639,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Which three Salesforce resources can be accessed from a Lightning web component?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-015",
@@ -670,7 +684,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Universal Containers hires a developer to build a custom search page to help users find the Accounts they want. Users will be able to search on Name, Description, and a custom comments field. Which consideration should the developer be aware of when deciding between SOQL and SOSL?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-016",
@@ -714,7 +729,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Universal Containers needs to create a custom user interface component that allows users to enter information about their accounts. The component should be able to validate the user input before saving the information to the database. What is the best technology to create this component?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-017",
@@ -766,7 +782,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Refer to the code snippet below:",
-  "qCode": "import fetchOpps from '@salesforce/apex/OpportunitySearch.fetchOpportunities';\n@wire(fetchOpps) opportunities;\nWhen a Lightning web component is rendered, a list of opportunities that match certain criteria should be retrieved database and displayed to the end-user. Which three considerations must the developer implement to make the fetchOpportunities method available when Lightning web component?"
+  "qCode": "import fetchOpps from '@salesforce/apex/OpportunitySearch.fetchOpportunities';\n@wire(fetchOpps) opportunities;\nWhen a Lightning web component is rendered, a list of opportunities that match certain criteria should be retrieved database and displayed to the end-user. Which three considerations must the developer implement to make the fetchOpportunities method available when Lightning web component?",
+  "section": 2
  },
  {
   "id": "PD1-018",
@@ -818,7 +835,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Which three resources in an Aura component can contain JavaScript functions?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-019",
@@ -863,7 +881,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Where are two locations a developer can look to find information about the status of batch or future methods?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-020",
@@ -907,7 +926,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Which code statement includes an Apex method named updateAccounts in the class AccountController for use in a Lightning web component?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-021",
@@ -952,7 +972,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Universal Containers wants Opportunities to no longer be editable when it reaches the Closed/Won stage. Which two strategies can a developer use to accomplish this?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-022",
@@ -997,7 +1018,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "What are two benefits of using declarative customizations over code?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-023",
@@ -1041,7 +1063,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A team of many developers work in their own individual orgs that have the same configuration as the production org. Which type of org is best suited for this scenario?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-024",
@@ -1085,7 +1108,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer has an integer variable called maxAttempts. The developer needs to ensure that once maxAttempts is initialized, it preserves its value for the length of the Apex transaction; while being able to share the variable's state between trigger executions. How should the developer declare maxAttempts to meet these requirements?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-025",
@@ -1129,7 +1153,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer needs to create a baseline set of data (Accounts, Contacts, Products, Assets) for an entire suite of Apex tests allowing them to test isolated requirements for various types of Salesforce cases. Which approach can efficiently generate the required data for each unit test?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-026",
@@ -1173,7 +1198,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "What is one limitation of Agentforce's language support capabilities?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-027",
@@ -1217,7 +1243,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer is creating an app that contains multiple Lightning web components. One of the child components is used for navigation purposes. When a user clicks a button called Next in the child parent component must be alerted so it can navigate to the next page. How should this be accomplished?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-028",
@@ -1262,7 +1289,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Which two settings must be defined in order to update a record of a junction object?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-029",
@@ -1306,7 +1334,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A company has a custom object, Order__c, that has a required, unique external ID field called Order_Number__c. Which statement should be used to perform the DML necessary to insert new records and update existing records in a list of Order__c records using the external ID field?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-030",
@@ -1350,7 +1379,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Which annotation exposes an Apex class as a RESTful web service?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-031",
@@ -1394,7 +1424,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "What can be used to override the Account's standard Edit button for Lightning Experience?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-032",
@@ -1438,7 +1469,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "What is a benefit of developing applications in a multi-tenant environment?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-033",
@@ -1470,7 +1502,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer must create a CreditCardPayment class that provides an implementation of an existing Payment class.",
-  "qCode": "public virtual class Payment {\n    public virtual void makePayment(Decimal amount) {\n        /*implementation*/\n    }\n}\nWhich is the correct implementation?"
+  "qCode": "public virtual class Payment {\n    public virtual void makePayment(Decimal amount) {\n        /*implementation*/\n    }\n}\nWhich is the correct implementation?",
+  "section": 0
  },
  {
   "id": "PD1-034",
@@ -1515,7 +1548,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer is using Agentforce Dev Assistant. Inline autocomplete is not available. What are two possible causes?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-035",
@@ -1559,7 +1593,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer is creating a Lightning web component to show a list of sales records. The Sales Representative user should be able to see the commission field on each record. The Sales Assistant user to see all fields on the record except the commission field. How should this be enforced so that the component works for both users without showing any errors?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-036",
@@ -1611,7 +1646,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Which three statements are accurate about debug logs?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-037",
@@ -1663,7 +1699,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "What are three ways for a developer to execute tests in an org?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-038",
@@ -1708,7 +1745,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "What are two use cases for executing Anonymous Apex code?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-039",
@@ -1752,7 +1790,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "An Opportunity needs to have an amount rolled up from a custom object that is not in a master- detail relationship. How can this be achieved?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-040",
@@ -1796,7 +1835,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer created a trigger on the Account object. While testing the trigger, the developer sees the error message 'Maximum trigger depth exceeded'. What could be the possible causes?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-041",
@@ -1840,7 +1880,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "In the following example, which sharing context will myMethod execute when it is invoked?",
-  "qCode": "public Class myClass {\n    public void myMethod() {\n        /* implementation */\n    }"
+  "qCode": "public Class myClass {\n    public void myMethod() {\n        /* implementation */\n    }",
+  "section": 2
  },
  {
   "id": "PD1-042",
@@ -1884,7 +1925,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Universal Containers wants to ensure that all new leads created in the system have a valid email address. They have already created a validation rule to enforce this requirement, but want to add an additional layer of validation using automation. What would be the best solution for this requirement?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-043",
@@ -1928,7 +1970,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "While working in a sandbox, an Apex test fails when run in the Test Runner. However, executing the Apex logic in the Execute Anonymous window succeeds with no exceptions or errors. Why did the method fail in the sandbox test framework but succeed in the Developer Console?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-044",
@@ -1974,7 +2017,8 @@
   ],
   "excluded": false,
   "qText": "A developer must perform a complex SOQL query that joins two objects in a Lightning component. How can the Lightning component execute the query?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-045",
@@ -2018,7 +2062,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "What will be the output in the debug log in the event of a QueryException during a call to the aQuery method if it is following example?",
-  "qCode": "public class myclass {\n    class CustomException extends Exception {\n    }\n    public static Account aQuery() {\n        Account theAccount;\n        try {\n            system.debug('Querying Accounts.\");\n            theAccount = [SELECT Id FROM Account WHERE CreatedDate > TODAY];\n        }\n        catch (CustomException ex) {\n            system.debug('Custom Exception.\");\n        }\n        catch (QueryException ex) {\n            system.debug('Query Exception.\");\n        }\n        finally {\n            system.debug('Done.\");\n        }\n        return theAccount;\n    }"
+  "qCode": "public class myclass {\n    class CustomException extends Exception {\n    }\n    public static Account aQuery() {\n        Account theAccount;\n        try {\n            system.debug('Querying Accounts.\");\n            theAccount = [SELECT Id FROM Account WHERE CreatedDate > TODAY];\n        }\n        catch (CustomException ex) {\n            system.debug('Custom Exception.\");\n        }\n        catch (QueryException ex) {\n            system.debug('Query Exception.\");\n        }\n        finally {\n            system.debug('Done.\");\n        }\n        return theAccount;\n    }",
+  "section": 1
  },
  {
   "id": "PD1-046",
@@ -2062,7 +2107,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Which code displays the contents of a Visualforce page as a PDF?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-047",
@@ -2107,7 +2153,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer created a trigger on the Account object and wants to test if the trigger is properly bulkified. The developer team decided that the trigger should be tested with 200 account records with unique names. What two things should be done to create the test data within the unit test with the least amount of code?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-048",
@@ -2151,7 +2198,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A Developer Edition org has five existing accounts. A developer wants to add 10 more accounts for testing purpose. The following code is executed in the Developer Console using the Execute Anonymous window:",
-  "qCode": "Account myAccount = new Account (Name = 'MyAccount');\ninsert myAccount;\nInteger x = 1;\nList<Account> newAccounts = new List<Account>();\ndo {\n    Account acct = new Account (Name = 'New Account ' + x++);\n    newAccounts.add(acct);\n}\nwhile (x < 10);\nHow many total accounts will be in the org after this code is executed?"
+  "qCode": "Account myAccount = new Account (Name = 'MyAccount');\ninsert myAccount;\nInteger x = 1;\nList<Account> newAccounts = new List<Account>();\ndo {\n    Account acct = new Account (Name = 'New Account ' + x++);\n    newAccounts.add(acct);\n}\nwhile (x < 10);\nHow many total accounts will be in the org after this code is executed?",
+  "section": 0
  },
  {
   "id": "PD1-049",
@@ -2189,7 +2237,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Universal Containers has a support process that allows users to request support from its engineering team using a custom Engineering_Support__c. Users should be able to associate multiple Engineering_Support__c records to a single Opportunity record. Additional aggregate information about the Engineering_Support__c records should be shown on the Opportunity record. Which relationship field should be implemented to support these requirements?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-049b",
@@ -2241,7 +2290,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "For which three items can a trace flag be configured?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-050",
@@ -2286,7 +2336,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Which two operations affect the number of times a trigger can fire?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-051",
@@ -2330,7 +2381,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Universal Containers has an order system that uses an Order Number to identify an order for customers and service agents. Order records will be imported into Salesforce. How should the Order Number field be defined in Salesforce?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-052",
@@ -2375,7 +2427,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "If Apex code executes inside the execute() method of an Apex class when implementing the Batchable interface, which two statements are true regarding governor limits?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-053",
@@ -2419,7 +2472,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A custom picklist field, `Food_Preference__c`, exists on a custom object. The picklist contains the following options: 'Vegan', 'Kosher', 'No Preference'. The developer must ensure a value is populated every time a record is created or updated. What is the optimal way to ensure a value is selected every time a record is saved?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-054",
@@ -2463,7 +2517,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer needs to confirm that a Contact trigger works correctly without changing the organization's data. What should the developer do to test the Contact trigger?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-055",
@@ -2507,7 +2562,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Which Apex class contains methods to return the amount of resources that have been used for a particular governor, such as the number of DML statements?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-056",
@@ -2551,7 +2607,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Which action causes a before trigger to fire by default for Accounts?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-057",
@@ -2596,7 +2653,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Management asked for opportunities to be automatically created for accounts with annual revenue greater than $1,000. developer created the following trigger on the Account object to satisfy this requirement.",
-  "qCode": "for (Account a: Trigger.new) {\n    if (a.AnnualRevenue > 1000000) {\n        List<Opportunity> oppList = [SELECT Id FROM Opportunity WHERE accountId = :a.Id] if(oppList.size() == 0) {\n            Opportunity oppty = new Opportunity{\n                Name = a.name, StageName = 'Prospecting' CloseDate = system.today().addDays(30));\n                insert oppty;\n            }\n        }\n    }\n    Users are able to update the account records via the UI and can see an opportunity created for high annual revenue across all accounts unless the administrator tries to upload a list of 170 accounts using DataLoader. If file adds current \"Process\" files, then the account records will be updated accordingly. Users are able to update the account records via the UI and can see an opportunity created for high annual revenue account. However, when the administrator tries to upload a list of 179 accounts using Data Loader, it fails with System.Exception errors. Which two actions should the developer take to fix the code segment shown above?"
+  "qCode": "for (Account a: Trigger.new) {\n    if (a.AnnualRevenue > 1000000) {\n        List<Opportunity> oppList = [SELECT Id FROM Opportunity WHERE accountId = :a.Id] if(oppList.size() == 0) {\n            Opportunity oppty = new Opportunity{\n                Name = a.name, StageName = 'Prospecting' CloseDate = system.today().addDays(30));\n                insert oppty;\n            }\n        }\n    }\n    Users are able to update the account records via the UI and can see an opportunity created for high annual revenue across all accounts unless the administrator tries to upload a list of 170 accounts using DataLoader. If file adds current \"Process\" files, then the account records will be updated accordingly. Users are able to update the account records via the UI and can see an opportunity created for high annual revenue account. However, when the administrator tries to upload a list of 179 accounts using Data Loader, it fails with System.Exception errors. Which two actions should the developer take to fix the code segment shown above?",
+  "section": 1
  },
  {
   "id": "PD1-058",
@@ -2641,7 +2699,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "In terms of the MVC paradigm, what are two advantages of implementing the view layer of a Salesforce application using Lightning Web Component-based development over Visualforce?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-059",
@@ -2685,7 +2744,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer has the following requirements: - Calculate the total amount on an Order. - Calculate the line amount for each Line Item based on quantity selected and price. - Move Line Items to a different Order if a Line Item is not in stock. Which relationship implementation supports these requirements on its own?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-060",
@@ -2723,7 +2783,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "The OrderHelper class is a utility class that contains business logic for processing orders. Consider the following code snippet:",
-  "qCode": "public class without sharing OrderHelper{\n    //code implementation\n}\nA developer needs to create a constant named DELIVERY_MULTIPLIER with a value of 4.15. The value of the constant should not change at any time in the code. How should the developer declare the DELIVERY_MULTIPLIER constant to meet the business objectives?"
+  "qCode": "public class without sharing OrderHelper{\n    //code implementation\n}\nA developer needs to create a constant named DELIVERY_MULTIPLIER with a value of 4.15. The value of the constant should not change at any time in the code. How should the developer declare the DELIVERY_MULTIPLIER constant to meet the business objectives?",
+  "section": 0
  },
  {
   "id": "PD1-061",
@@ -2768,7 +2829,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer created a lightning web component called statusComponent to be inserted into the Account record page. Which two things should the developer do to make this component available?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-062",
@@ -2796,7 +2858,8 @@
   ],
   "excluded": true,
   "qText": "A developer must create a DrawList class that provides capabilities defined in the Sortable and Drawable interfaces.",
-  "qCode": "public interface Sortable {\n    void sort();\n}\npublic interface Drawable {\n    void draw();\n}\nWhich is the correct implementation?"
+  "qCode": "public interface Sortable {\n    void sort();\n}\npublic interface Drawable {\n    void draw();\n}\nWhich is the correct implementation?",
+  "section": 0
  },
  {
   "id": "PD1-063",
@@ -2840,7 +2903,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer is alerted to an issue with a custom Apex trigger that is causing records to be duplicated. What is the most appropriate debugging approach to troubleshoot the issue?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-064",
@@ -2885,7 +2949,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Which two characteristics are true for Lightning Web Component custom events?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-065",
@@ -2929,7 +2994,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "The following code snippet is executed by a Lightning web component in an environment with more than 2,000 lead records:",
-  "qCode": "@AuraEnabled public void static updateLeads() {\n    for(lead thisLead : [SELECT Origin__c FROM Lead]) {\n        thisLead.leadSource = thisLead.Origin__c;\n        update thisLead;\n    }\n    Which governor limit will likely be exceeded within the Apex transaction?"
+  "qCode": "@AuraEnabled public void static updateLeads() {\n    for(lead thisLead : [SELECT Origin__c FROM Lead]) {\n        thisLead.leadSource = thisLead.Origin__c;\n        update thisLead;\n    }\n    Which governor limit will likely be exceeded within the Apex transaction?",
+  "section": 1
  },
  {
   "id": "PD1-066",
@@ -2974,7 +3040,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Assuming that name is a String obtained by an <apex:inputText> tag on a Visualforce page, which two SOQL queries performed are safe from SOQL injection?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-067",
@@ -3019,7 +3086,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "As part of new feature development, a developer is asked to build a responsive application capable of responding to touch events that will be executed on stateful clients. Which two technologies are built on a framework that fully supports the business requirement?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-068",
@@ -3064,7 +3132,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Universal Containers recently transitioned from Classic to Lightning Experience. One of its business processes requires certain values from the Opportunity object to be sent via an HTTP REST callout to its external order management system when the user presses a custom button on the Opportunity detail page. Example values are as follows: - Name - Amount - Account Which two methods should the developer implement to fulfill the business requirement?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-069",
@@ -3108,7 +3177,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Given the following Apex statement:",
-  "qCode": "Account myAccount = [SELECT Id, Name FROM Account];\nWhat occurs when more than one Account is returned by the SOQL query?"
+  "qCode": "Account myAccount = [SELECT Id, Name FROM Account];\nWhat occurs when more than one Account is returned by the SOQL query?",
+  "section": 0
  },
  {
   "id": "PD1-070",
@@ -3152,7 +3222,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A Salesforce administrator used Flow Builder to create a flow named \"accountOnboarding\". The flow must be used inside an Aura component. Which tag should a developer use to display the flow in the component?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-071",
@@ -3180,7 +3251,8 @@
   ],
   "excluded": true,
   "qText": "A developer is asked to write helper methods that create test data for unit tests.",
-  "qCode": "01: public TestUtils {\n    02: 03: public static Account createAccount() {\n        04: Account act = new Account();\n        05: // ...set some fields on acct...\n        06: return act;\n        07:\n    }\n    08: //...other methods...\n    09:\n}\nWhat should be changed in the TestUtils class so that its methods are only usable by unit test methods?"
+  "qCode": "01: public TestUtils {\n    02: 03: public static Account createAccount() {\n        04: Account act = new Account();\n        05: // ...set some fields on acct...\n        06: return act;\n        07:\n    }\n    08: //...other methods...\n    09:\n}\nWhat should be changed in the TestUtils class so that its methods are only usable by unit test methods?",
+  "section": 3
  },
  {
   "id": "PD1-072",
@@ -3218,7 +3290,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Refer to the following Apex code:",
-  "qCode": "Integer x = 0;\ndo {\n    x = 1;\n    x++;\n}\nwhile (x < 1);\nSystem.debug(x);\nWhat is the value of x when it is written to the debug log?"
+  "qCode": "Integer x = 0;\ndo {\n    x = 1;\n    x++;\n}\nwhile (x < 1);\nSystem.debug(x);\nWhat is the value of x when it is written to the debug log?",
+  "section": 0
  },
  {
   "id": "PD1-073",
@@ -3263,7 +3336,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Which two actions may cause triggers to fire?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-074",
@@ -3307,7 +3381,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer wants to import 500 Opportunity records into a sandbox. Why should the developer choose to use Data Loader instead of Data Import Wizard?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-075",
@@ -3352,7 +3427,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "What are two characteristics related to formulas?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-076",
@@ -3396,7 +3472,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "What should a developer use to fix a Lightning web component bug in a sandbox?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-077",
@@ -3440,7 +3517,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Developers at Universal Containers (UC) use version control to share their code changes, but they notice that when they deploy their code to different environments they often have failures. They decide to set up Continuous Integration (CI). What should the UC development team use to automatically run tests as part of their CI process?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-078",
@@ -3484,7 +3562,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer is asked to prevent anyone other than a user with Sales Manager profile from changing the Opportunity Status to Closed Lost if the lost reason is blank. Which automation allows the developer to satisfy this requirement in the most efficient manner?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-079",
@@ -3536,7 +3615,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer has a single custom controller class that works with a Visualforce Wizard to support creating and editing multiple sObjects. The wizard accepts data from user inputs across multiple Visualforce pages and from a parameter on the initial URL. Which three statements are useful inside the unit test to effectively test the custom controller?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-080",
@@ -3580,7 +3660,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "What is an example of a polymorphic lookup field in Salesforce?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-081",
@@ -3612,7 +3693,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Consider the following code snippet for a Visualforce page that is launched using a Custom Button on the Account detail page layout.",
-  "qCode": "<apex:page standardController=\"Account\"> <!-- additional UI elements --> <apex:commandButton action=\"{\n    {\n        save\n    }\n}\n\" value=\"Save\"/> </apex:page> When the Save button is pressed the developer must perform a complex validation that involves multiple objects and, upon success, redirect the user to another Visualforce page. What can the developer use to meet this business requirement?"
+  "qCode": "<apex:page standardController=\"Account\"> <!-- additional UI elements --> <apex:commandButton action=\"{\n    {\n        save\n    }\n}\n\" value=\"Save\"/> </apex:page> When the Save button is pressed the developer must perform a complex validation that involves multiple objects and, upon success, redirect the user to another Visualforce page. What can the developer use to meet this business requirement?",
+  "section": 2
  },
  {
   "id": "PD1-082",
@@ -3657,7 +3739,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A development team wants to use a deployment script to automatically deploy to a sandbox during their development cycles. Which two tools can they use to run a script that deploys to a sandbox?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-083",
@@ -3709,7 +3792,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Which three steps allow a custom Scalable Vector Graphic (SVG) to be included in a Lightning web component?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-084",
@@ -3753,7 +3837,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Universal Containers wants to back up all of the data and attachments in its Salesforce org once a month. Which approach should a developer use to meet this requirement?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-085",
@@ -3797,7 +3882,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer wants to get access to the standard price book in the org while writing a test class that covers an OpportunityLineIterator trigger. Which method allows access to the price book?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-086",
@@ -3841,7 +3927,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A company decides to implement a new process where every time an Opportunity is created, a follow up Task should be created and assigned to the Opportunity Owner. What is the most efficient way for a developer to implement this?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-087",
@@ -3885,7 +3972,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer wants to mark each Account in a List<Account> as either Active or Inactive, based on the value in the LastModifiedDate field of each Account being greater than 90 days in the past. Which Apex technique should the developer use?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-088",
@@ -3929,7 +4017,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A custom object Trainer _c has a lookup field to another custom object Gym _c. Which SOQL query will get the record for the Viridian City Gym and all it's trainers?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-089",
@@ -3973,7 +4062,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Which annotation should a developer use on an Apex method to make it available to be wired to a property in a Lightning web component?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-090",
@@ -4017,7 +4107,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "An Apex method, getAccounts, that returns a list of Accounts given a searchTerm, is available for Lightning Web Components to use. What is the correct definition of a Lightning Web Component property that uses the getAccounts method?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-091",
@@ -4061,7 +4152,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer must troubleshoot to pinpoint the causes of performance issues when a custom page loads in their org. Which tool should the developer use to troubleshoot query performance?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-092",
@@ -4105,7 +4197,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "The sales management team at Universal Containers requires that the Lead Source field of the Lead record be populated when a Lead is converted. What should be done to ensure that a user populates the Lead Source field prior to converting a Lead?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-093",
@@ -4149,7 +4242,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer is creating a page that allows users to create multiple Opportunities. The developer is asked to verify the current user's default Opportunity record type, and set certain default values based on the record type before inserting the record. How can the developer find the current user's default record type?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-094",
@@ -4194,7 +4288,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "What are two ways a developer can get the status of an enqueued job for a class that implements the queueable interface?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-095",
@@ -4238,7 +4333,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A credit card company needs to implement the functionality for a service agent to process damaged or stolen credit cards. When the customers call in, the service agent must gather many pieces of information. A developer is tasked to implement this functionality. What should the developer use to satisfy this requirement in the most efficient manner?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-096",
@@ -4283,7 +4379,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer creates a custom exception as shown below:",
-  "qCode": "public class ParityException extends Exception {\n}\nWhat are two ways the developer can fire the exception in Apex?"
+  "qCode": "public class ParityException extends Exception {\n}\nWhat are two ways the developer can fire the exception in Apex?",
+  "section": 1
  },
  {
   "id": "PD1-097",
@@ -4327,7 +4424,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Which statement describes the execution order when triggers are associated to the same object and event?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-098",
@@ -4371,7 +4469,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "While developing an Apex class with custom search functionality that will be launched from a Lightning Web Component, how can the developer ensure only records accessible to the currently logged in user are displayed?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-099",
@@ -4410,7 +4509,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer is tasked to perform a security review of the ContactSearch Apex class that exists in the system. Within the class, the developer identifies the following method as a security threat:",
-  "qCode": "List<Contact> performance(String lastName){\n    return Database.query('SELECT Id, FirstName, LastName FROM Contact WHERE LastName Like %'+lastName+ '%');\n}\nWhat are two ways the developer can update the method to prevent a SOQL injection attack?"
+  "qCode": "List<Contact> performance(String lastName){\n    return Database.query('SELECT Id, FirstName, LastName FROM Contact WHERE LastName Like %'+lastName+ '%');\n}\nWhat are two ways the developer can update the method to prevent a SOQL injection attack?",
+  "section": 2
  },
  {
   "id": "PD1-100",
@@ -4454,7 +4554,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "What should a developer do to check the code coverage of a class after running all tests?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-101",
@@ -4498,7 +4599,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Universal Containers is developing a new Lightning web component for their marketing department. They want to ensure that the component is fine tuned and provides a seamless user experience. What are some benefits of using the Lightning Component framework?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-102",
@@ -4543,7 +4645,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "What are two considerations for deploying from a sandbox to production?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-103",
@@ -4587,7 +4690,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Which statement should be used to allow some of the records in a list of records to be inserted if others fail to be inserted?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-104",
@@ -4631,7 +4735,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Given the following Anonymous block:",
-  "qCode": "List<Case> casesToUpdate = new List<Case>();\nfor(Case thisCase : [SELECT Id, Status FROM Case LIMIT 50000]) {\n    thisCase.Status = 'Working';\n    casesToUpdate.add(thisCase);\n}\ntry{\n    Database.update(casesToUpdate,false);\n}\ncatch(Exception e){\n    System.debug(e.getMessage());\n}\nWhat should a developer consider for an environment that has over 10,000 Case records?"
+  "qCode": "List<Case> casesToUpdate = new List<Case>();\nfor(Case thisCase : [SELECT Id, Status FROM Case LIMIT 50000]) {\n    thisCase.Status = 'Working';\n    casesToUpdate.add(thisCase);\n}\ntry{\n    Database.update(casesToUpdate,false);\n}\ncatch(Exception e){\n    System.debug(e.getMessage());\n}\nWhat should a developer consider for an environment that has over 10,000 Case records?",
+  "section": 1
  },
  {
   "id": "PD1-105",
@@ -4675,7 +4780,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer needs to prevent the creation of Request_c records when certain conditions exist in the system. A RequestLogic class exists that checks the conditions. What is the correct implementation?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-106",
@@ -4719,7 +4825,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A custom Visualforce controller calls the `ApexPages.addMessage()` method, but no messages are rendering on the page. Which component should be added to the Visualforce page to display the message?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-107",
@@ -4763,7 +4870,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Universal Containers has a large number of custom applications that were built using a third- party JavaScript framework and exposed using Visualforce pages. The company wants to update these applications to apply styling that resembles the look and feel of Lightning Experience. What should the developer do to fulfill the business request in the quickest and most effective manner?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-108",
@@ -4807,7 +4915,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "How can a developer check the test coverage of autolaunched Flows before deploying them in a change set?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-109",
@@ -4839,7 +4948,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Consider the following code snippet:",
-  "qCode": "public static List<lead> obtainAllFields(Set<Id> leadIds){\n    List<Lead> result = new List<Lead>();\n    for(Id leadId : leadIds){\n        result.add([SELECT FIELDS(STANDARD) FROM Lead WHERE Id = :leadId]);\n    }\n    return result;\n}\nGiven the multi-tenant architecture of the Salesforce platform, what is a best practice a developer should implement and ensure successful execution of the method?"
+  "qCode": "public static List<lead> obtainAllFields(Set<Id> leadIds){\n    List<Lead> result = new List<Lead>();\n    for(Id leadId : leadIds){\n        result.add([SELECT FIELDS(STANDARD) FROM Lead WHERE Id = :leadId]);\n    }\n    return result;\n}\nGiven the multi-tenant architecture of the Salesforce platform, what is a best practice a developer should implement and ensure successful execution of the method?",
+  "section": 1
  },
  {
   "id": "PD1-110",
@@ -4883,7 +4993,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A software company uses the following objects and relationships: - Case: to handle customer support issues - Defect_c: a custom object to represent known issues with the company's software - Case_Defect_c: a junction object between Case and Defect_c to represent that a defect is a cause of a customer issue Case and Defect_c have Private organization-wide defaults. What should be done to share a specific Case_Defect_c record with a user?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-111",
@@ -4927,7 +5038,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "The values 'High', 'Medium', and 'Low' are identified as common values for multiple picklists across different objects. What is an approach a developer can take to streamline maintenance of the picklists and their values, while also restricting the values to the ones mentioned above?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-112",
@@ -4971,7 +5083,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A Lightning component has a wired property, `searchResults`, that stores a list of Opportunities. Which definition of the Apex method, to which the `searchResults` property is wired, should be used?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-113",
@@ -5015,7 +5128,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Cloud Kicks Fitness, an ISV Salesforce partner, is developing a managed package application. One of the application modules allows the user to calculate body fat using the Apex class, BodyFat, and its method, calculateBodyFat(). The product owner wants to ensure this method is accessible by the consumer of the application when developing customizations outside the ISV's package namespace. Which approach should a developer take to ensure calculateBodyFat() is accessible outside the package namespace?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-114",
@@ -5059,7 +5173,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A software company is using Salesforce to track the companies they sell their software to in the Account object. They also use Salesforce to track bugs in their software with a custom object, Bug__c. As part of a process improvement initiative, they want to be able to report on which companies have reported which bugs. Each company should be able to report multiple bugs and bugs can also be reported by multiple companies. What is needed to allow this reporting?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-115",
@@ -5103,7 +5218,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Universal Containers wants to automatically assign new cases to the appropriate support representative based on the case origin. They have created a custom field on the Case object to store the support representative name. What is the best solution to assign the case to the appropriate support representative?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-116",
@@ -5147,7 +5263,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Universal Containers (UC) uses a custom object called Vendor. The Vendor custom object has a master-detail relationship with the standard Account object. Based on some internal discussions, the UC administrator tried to change the master detail relationship to a lookup relationship, but was not able to do so. What is a possible reason that this change was not permitted?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-117",
@@ -5191,7 +5308,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "What is the result of the following code?",
-  "qCode": "Account a = new Account();\nDatabase.insert(a, false);"
+  "qCode": "Account a = new Account();\nDatabase.insert(a, false);",
+  "section": 0
  },
  {
   "id": "PD1-118",
@@ -5236,7 +5354,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer at AW Computing is tasked to create the supporting test class for a programmatic customization that leverages records stored within the custom object, `Pricing_Structure__c`. AW Computing is a complex pricing structure for each item on the store, spanning more than 500 records. Which two approaches can the developer use to ensure `Pricing_Structure__c` records are available when the test class is executed? Choose 2 answers",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-119",
@@ -5280,7 +5399,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "What is the result of the following code snippet?",
-  "qCode": "public void doWork(Account acct){\n    for (Integer i = 0; i <= 200; i++) {\n        insert acct;\n    }"
+  "qCode": "public void doWork(Account acct){\n    for (Integer i = 0; i <= 200; i++) {\n        insert acct;\n    }",
+  "section": 0
  },
  {
   "id": "PD1-120",
@@ -5326,7 +5446,8 @@
   ],
   "excluded": false,
   "qText": "When using Salesforce DX, what does a developer need to enable to crea and manage scratch orgs?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-121",
@@ -5370,7 +5491,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer must create a Lightning component that allows users to input Contact record information to create a Contact record, including a Salary__c custom field. What should the developer use, along with a lightning-record-edit-form, so that Salary__c field functions as a currency input and is only viewable and editable by users that have the correct field level permissions on Salary__c?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-122",
@@ -5414,7 +5536,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "What can be easily developed using the Lightning Component framework",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-123",
@@ -5458,7 +5581,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "While writing an Apex class, a developer wants to make sure that all functionality being developed is handled as specified by the requirements. Which approach should the developer use to be sure that the Apex class is working according to specifications?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-124",
@@ -5503,7 +5627,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Universal Containers wants to assess the advantages of declarative development versus programmatic customization for specific use cases in its Salesforce implementation. What are two characteristics of declarative development over programmatic customization? Choose 2 answers",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-125",
@@ -5547,7 +5672,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "How does the Lightning Component framework help developers implement solutions faster?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-126",
@@ -5591,7 +5717,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer created a custom order management app that uses an Apex class. The order is represented by an Order object and an OrderItem object that has master-detail relationship to Order. During order processing, an order may be split into multiple orders. What should a developer do to allow their code to move some existing OrderItem records to a new Order record?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-127",
@@ -5635,7 +5762,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A lead developer creates an Apex interface called `Laptop`. Consider the following code snippet:",
-  "qCode": "public class SilverLaptop{\n    //code implementation\n}\nHow can a developer use the `Laptop` interface within the `SilverLaptop` class?"
+  "qCode": "public class SilverLaptop{\n    //code implementation\n}\nHow can a developer use the `Laptop` interface within the `SilverLaptop` class?",
+  "section": 0
  },
  {
   "id": "PD1-128",
@@ -5679,7 +5807,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer wrote Apex code that calls out to an external system using REST API. How should a developer write the test to prove the code is working as intended?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-129",
@@ -5724,7 +5853,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Universal Containers (UC) is developing a process for their sales teams that requires all sales reps to through a set of scripted steps with each new customer they create. In the first step of collecting information, UC?s ERP system must be checked via a REST endpoint to see if the customer exists. If the customer exists, the data must be presented to the sales rep in Salesforce. Which two should a developer implement to satisfy the requirements? Choose 2 answers",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-130",
@@ -5768,7 +5898,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer must provide custom user interfaces when users edit a Contact in either Salesforce Classic or Lightning Experience. What should the developer use to override the Contact?s Edit button and provide this functionality?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-130b",
@@ -5812,7 +5943,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "What should a developer use to script the deployment and unit test execution as part of continuous integration?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-131",
@@ -5856,7 +5988,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer considers the following snippet of code:",
-  "qCode": "Boolean i=OK;\ninteger x;\nString theString - 'Hello';\nif (i=OK == false && theString == 'Hello') {\n    x = 1;\n}\nelse if (i=OK == true && theString == 'Hello') {\n    x = 2;\n}\nelse if (i=OK != null && theString == 'Hello') {\n    x = 3;\n}\nelse {\n    x = 4;\n}\nBased on this code, what is the value of x?"
+  "qCode": "Boolean i=OK;\ninteger x;\nString theString - 'Hello';\nif (i=OK == false && theString == 'Hello') {\n    x = 1;\n}\nelse if (i=OK == true && theString == 'Hello') {\n    x = 2;\n}\nelse if (i=OK != null && theString == 'Hello') {\n    x = 3;\n}\nelse {\n    x = 4;\n}\nBased on this code, what is the value of x?",
+  "section": 0
  },
  {
   "id": "PD1-132",
@@ -5900,7 +6033,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A PrimaryId_c custom field exists on the Candidate_c custom object. The field is used to store each candidate's id number and is marked as Unique in the schema definition. As part of a data enrichment process, Universal Containers has a CSV file that contains updated data for all candidates in the system. The file contains each Candidate's primary id as a data point. Universal Containers wants to upload this information into Salesforce, while ensuring all data rows are correctly mapped to a candidate in the system. Which technique should the developer implement to streamline the data upload?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-133",
@@ -5944,7 +6078,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Considering the following code snippet:",
-  "qCode": "public static void insertAccounts(List<Account> theseAccounts){\n    for(Account thisAccount : theseAccounts){\n        if(thisAccount.website == null){\n            thisAccount.website = 'https://www.demo.com';\n        }\n    }\n    update theseAccounts;\n}\nWhen the code executes, a DML exception is thrown. How should a developer modify the code to ensure exceptions are handled graceful!"
+  "qCode": "public static void insertAccounts(List<Account> theseAccounts){\n    for(Account thisAccount : theseAccounts){\n        if(thisAccount.website == null){\n            thisAccount.website = 'https://www.demo.com';\n        }\n    }\n    update theseAccounts;\n}\nWhen the code executes, a DML exception is thrown. How should a developer modify the code to ensure exceptions are handled graceful!",
+  "section": 1
  },
  {
   "id": "PD1-134",
@@ -5988,7 +6123,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "How many Accounts will be inserted by the following block of code?",
-  "qCode": "for(Integer i = 0 ; i < 500; i++) {\n    Account a = new Account (Name='New Account ' + i);\n    insert a;\n}"
+  "qCode": "for(Integer i = 0 ; i < 500; i++) {\n    Account a = new Account (Name='New Account ' + i);\n    insert a;\n}",
+  "section": 0
  },
  {
   "id": "PD1-135",
@@ -6035,7 +6171,8 @@
   ],
   "excluded": false,
   "qText": "The Job_Application__c custom object has a field that is a master-deta relationship to the Contact object, where the Contact object is the master. As part of a feature implementation, a developer needs to retrieve a list containing Contact records where the related Account Industry is 'Technology', while also retrieving the Contact's Job_Application__c records. Based on the object's relationships, what is the most efficient statement to retrieve the list of Contacts?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-136",
@@ -6067,7 +6204,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer must implement a CheckPaymentProcessor class that provides check processing payment capabilities that adhere to what is defined for payments in the PaymentProcessor interface.",
-  "qCode": "public interface PaymentProcessor {\n    void pay(Decimal amount);\n}\nWhich implementation is correct to use the PaymentProcessor interface class?"
+  "qCode": "public interface PaymentProcessor {\n    void pay(Decimal amount);\n}\nWhich implementation is correct to use the PaymentProcessor interface class?",
+  "section": 0
  },
  {
   "id": "PD1-137",
@@ -6111,7 +6249,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer must write an Apex method that will be called from a Lightning component. The method may delete an Account stored in the accountRec variable. Which method should a developer use to ensure only users that should be able to delete Accounts can successfully perform deletions?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-138",
@@ -6156,7 +6295,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer creates a Lightning web component that imports a method within an Apex class. When a Validate button is pressed, the method runs to execute complex validations. In this implementation scenario, which two options are part of the Controller according to the MVC architecture Choose 2 answers",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-139",
@@ -6200,7 +6340,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer writes a trigger on the Account object on the before update event that increments a count field. A record triggered flow also increments the cou field every time that an Account is created or updated. What is the value of the count field if an Account is inserted with an initial value of zero, assuming no other automation logic is implemented on the Account?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-140",
@@ -6244,7 +6385,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Universal Containers (UC) uses out-of-the-box order management, that i a Master-Detail relationship between Order and Order Line Item. UC stores the availability date on each Order Line Item and Orders are only shipped when all of the Order Line Items are available. Which method should be used to calculate the estimated ship date for an Order?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-141",
@@ -6289,7 +6431,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "When importing and exporting data into Salesforce, which two statements are true? Choose 2 answers",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-142",
@@ -6341,7 +6484,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Which three code lines are required to create a Lightning component on a Visualforce page? Choose 3 answers",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-143",
@@ -6386,7 +6530,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Which two statements are true about using the @TestSetup annotation in an Apex test class? Choose 2 answers",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-144",
@@ -6430,7 +6575,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A Next Best Action strategy uses an Enhance element that invokes an Apex method determine a discount level for a Contact, based on a number of factors. What is the correct definition of the Apex method?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-145",
@@ -6474,7 +6620,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer is migrating a Visualforce page into a Lightning web component. The Visualforce page shows information about a single record. The developer decide to use Lightning Data Service to access record data. Which security consideration should the developer be aware of?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-146",
@@ -6518,7 +6665,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer creates a batch Apex job to update a large number of record and receives reports of the job timing out and not completing. What is the first step towards troubleshooting the issue?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-147",
@@ -6563,7 +6711,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "What are two benefits of using External IDs? Choose 2 answers",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-148",
@@ -6608,7 +6757,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer completed modifications to a customized feature that is comprised of two elements: - Apex trigger - Trigger handler Apex class What are two factors that the developer must take into account to properly deploy the modification to the production environment? Choose 2 answers",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-149",
@@ -6652,7 +6802,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer needs to make a custom Lightning Web Component available in the Salesforce Classic user interface. Which approach can be used to accomplish this?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-150",
@@ -6696,7 +6847,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer wants to improve runtime performance of Apex calls by caching results on the client. What is the most efficient way to implement this and follow best practices?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-151",
@@ -6740,7 +6892,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A lead developer creates a virtual class called \"OrderRequest\". Consider t following code snippet:",
-  "qCode": "public class CustomerOrder{\n    //code implementation\n}\nHow can a developer use the OrderRequest class within the CustomerOrder class?"
+  "qCode": "public class CustomerOrder{\n    //code implementation\n}\nHow can a developer use the OrderRequest class within the CustomerOrder class?",
+  "section": 0
  },
  {
   "id": "PD1-152",
@@ -6785,7 +6938,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "The Account object in an organization has a master-detail relationship to a child object called Branch The following automations exist: - Roll up summary fields - Custom validation rules - Duplicate rules A developer created a trigger on the Account object. Which two things should the developer consider while testing the trigger code? Choose 2 answers",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-153",
@@ -6829,7 +6983,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Which Lightning Web Component custom event property settings enable the event to bubble up the containment hierarchy and cross the Shadow DOM boundary?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-154",
@@ -6873,7 +7028,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "An org has an existing flow that edits an Opportunity with an Update Records element. A developer must update the flow to also create a Contact and store the created Contact's ID on the Opportunity. Which update must the developer make in the flow?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-155",
@@ -6925,7 +7081,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Which three data types can a SOQL query return? Choose 3 answers",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-156",
@@ -6969,7 +7126,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A team of developers is working on a source-driven project that allows them to wor independently, with many different org configurations. Which type of Salesforce orgs should they use for their development?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-157",
@@ -7014,7 +7172,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Which two are best practices when it comes to Aura component and application event handling? Choose 2 answers",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-158",
@@ -7058,7 +7217,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Universal Containers has implemented an order management application. Each Order can have one or more Order Line items. The Order Line object is related to the Order via a master-detail relationship. For each Order Line item, the total price is calculated by multiplying the Order Line item price with the quantity ordered. What is the best practice to get the sum of all Order Line item totals on the Order record?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-159",
@@ -7110,7 +7270,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "What are three considerations when using the @InvocableMethod annotation in Apex? Choose 3 answers",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-160",
@@ -7154,7 +7315,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "What should be used to create scratch orgs?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-161",
@@ -7198,7 +7360,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Universal Containers (UC) processes orders in Salesforce in a custom object, order_c. They also allow sales reps to upload CSV files with thousands of orders at a time. A developer is tasked with integrating orders placed in Salesforce with UC?s enterprise resource planning (ERP) system. After the status for an order_c is first set to ?Placed?, the order information must be sent to a REST endpoint in the ERP system that can process one order at a time. What should the developer implement to accomplish this?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-162",
@@ -7245,7 +7408,8 @@
   ],
   "excluded": false,
   "qText": "A developer needs to implement a custom SOAP Web Service that is used by an external Web Application. The developer chooses to include helper methods that are not used by the Web Application in the implementation of the Web Service Class. Which code segment shows the correct declaration of the class and methods?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-163",
@@ -7289,7 +7453,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "How should a developer write unit tests for a private method in an Apex class?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-164",
@@ -7333,7 +7498,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "What is the value of the Trigger.old context variable in a before insert trigger?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-165",
@@ -7377,7 +7543,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Universal Containers decided to transition from Classic to Lightning Experience. They asked a developer to replace a JavaScript button that was being used to create records with prepopulated values. What can the developer use to accomplish this?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-166",
@@ -7421,7 +7588,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Universal Containers has developed custom Apex code and Lightning Components in a Sandbox environment. They need to deploy the code and associated configurations to the Production environment. What is the recommended process for deploying the code and configurations to Production?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-167",
@@ -7465,7 +7633,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Universal Containers has a Visualforce page that displays a table of every Container...c being rented by a given Account. Recently this page is falling with a view state limit because some of the customers rent over 10,000 containers. What should a developer change about the Visualforce page to help with the page load errors?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-168",
@@ -7509,7 +7678,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer created a trigger on a custom object. This custom object also has some dependent pick lists. According to the order of execution rules, which step happens first?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-169",
@@ -7553,7 +7723,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Universal Containers implemented a private sharing model for the Account object. A custom Account search tool was developed with Apex to help sales representatives find accounts that match multiple criteria they specify. Since its release, users of the tool report they can see Accounts they do not own. What should the developer use to enforce sharing permissions for the currently logged in user while using the custom search tool?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-170",
@@ -7597,7 +7768,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Universal Containers is building a recruiting app with an Applicant object that stores information about an individual person and a Job object that represents a job. Each applicant may apply for more than one job. What should a developer implement to represent that an applicant has applied for a job?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-171",
@@ -7642,7 +7814,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A business has a proprietary Order Management System (OMS) that creates orders from its website and fulfils the orders. When the order is created in the OMS, an integration also creates an order record in Salesforce and relates it to the contact as identified by the email on the order. As the order goes through different stages in the OMS, the integration also updates it in Salesforce. The business notices that each update from the OMS creates a new order record in Salesforce. Which two actions should prevent the duplicate order records from being created in Salesforce? Choose 2 answers",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-172",
@@ -7690,7 +7863,8 @@
   ],
   "excluded": false,
   "qText": "Managers at Universal Containers want to ensure that only decommissioned containers are able to be deleted in the system. To meet the business requirement a Salesforce developer adds \"Decommissioned\" as a picklist value for the `Status_=` custom field within the `Container_=` object. Which two approaches could a developer use to enforce only Container records with a status of \"Decommissioned\" can be deleted? Choose 2 answers",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-173",
@@ -7737,7 +7911,8 @@
   "excluded": true,
   "duplicateOf": "PD1-044",
   "qText": "A developer must perform a complex SOQL query that joins two objects in a Lightning component. How can the Lightning component execute the query?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-174",
@@ -7781,7 +7956,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Universal Containers wants a list button to display a Visualforce page that allows users to edit multiple records. Which Visualforce feature supports this requirement?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-175",
@@ -7825,7 +8001,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer creates a new Apex trigger with a helper class, and writes a test class that only exercises 95% coverage of the new Apex helper class. hange Set deployment to production fails with the test coverage warning: \"Test coverage of selected Apex Trigger is 0%, at least 1% test coverage is required.\" hat should the developer do to successfully deploy the new Apex trigger and helper class?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-176",
@@ -7872,7 +8049,8 @@
   ],
   "excluded": false,
   "qText": "A developer is designing a new application on the Salesforce platform and wants to ensure it can support multiple tenants effectively. Which design framework should the developer consider to ensure scalability and maintainability?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-177",
@@ -7918,7 +8096,8 @@
   ],
   "excluded": false,
   "qText": "What should a developer use to obtain the 16 and Name of all the Leads, Accounts, and Contracts that have the company name \"Universal Containers\"?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-178",
@@ -7966,7 +8145,8 @@
   ],
   "excluded": false,
   "qText": "What are two considerations for running a flow in debug mode? Choose 2 answers",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-179",
@@ -8010,7 +8190,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Since Aura application events follow the traditional publish-subscribe model, which method is used to fire an event?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-180",
@@ -8054,7 +8235,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "What does the Lightning Component framework provide to developers?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-181",
@@ -8106,7 +8288,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "What are three characteristics of change set deployments? Choose 3 answers",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-182",
@@ -8150,7 +8333,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer needs to have records with specific field values in order to test a new Apex class. What should the developer do to ensure the data is available to the test?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-183",
@@ -8194,7 +8378,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Universal Containers (UC) wants to lower its shipping cost while making the shipping process more efficient. The Distribution Officer advises UC to implement global addresses to allow multiple Accounts to share a default pickup address. The developer is tasked to create the supporting object and relationship for this business requirement and uses the Setup Menu to create a custom object called \"Global Address\". Which field should the developer add to create the most efficient model that supports the business need?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-184",
@@ -8238,7 +8423,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer deployed a trigger to update the status_= of Assets related to an Account when the Account's status changes and a nightly integration that updates Accounts in bulk has started to fall with limit failures.",
-  "qCode": "01: trigger AccountTrigger on Account(after update) {\n    02: List<Asset> assertEquals(e = new List<Asset>())\n    03: for (Account name). Trigger_num {\n        04: Account olds = Trigger::oldbip.get(newA,To);\n        05: if (oldA.Status__c != newA.Status__c) {\n            06: assertEquals(e.addAll{\n                AccountHelper.getAsset#ToUpdate(newA)\n            }\n            ;\n            07:\n        }\n        08:\n    }\n    09: update assertEquals(pdate;\n    10:\n}\n11: public class AccountHelper {\n    12: public static List<Asset> getAsset#ToUpdate(Account sort) {\n        13: List<Asset> assertEquals(e = new List<Asset>();\n        14:\n    }\n    17: FROM Asset\n    18: WHERE AccountId = 'acct.Id(){\n        19: if (actt.status__c != acct.Status__c) {\n            20: aact.t.data__c = acct.status__c;\n            21: aaest=ToUpdate.add(aact);\n            22:\n        }\n        23:\n    }\n    24: return aaest=ToUpdate;\n    25:\n}\n26:\n}\nWhat should the developer change about the code to address the failure while still having the code update all of the Assets correctly?"
+  "qCode": "01: trigger AccountTrigger on Account(after update) {\n    02: List<Asset> assertEquals(e = new List<Asset>())\n    03: for (Account name). Trigger_num {\n        04: Account olds = Trigger::oldbip.get(newA,To);\n        05: if (oldA.Status__c != newA.Status__c) {\n            06: assertEquals(e.addAll{\n                AccountHelper.getAsset#ToUpdate(newA)\n            }\n            ;\n            07:\n        }\n        08:\n    }\n    09: update assertEquals(pdate;\n    10:\n}\n11: public class AccountHelper {\n    12: public static List<Asset> getAsset#ToUpdate(Account sort) {\n        13: List<Asset> assertEquals(e = new List<Asset>();\n        14:\n    }\n    17: FROM Asset\n    18: WHERE AccountId = 'acct.Id(){\n        19: if (actt.status__c != acct.Status__c) {\n            20: aact.t.data__c = acct.status__c;\n            21: aaest=ToUpdate.add(aact);\n            22:\n        }\n        23:\n    }\n    24: return aaest=ToUpdate;\n    25:\n}\n26:\n}\nWhat should the developer change about the code to address the failure while still having the code update all of the Assets correctly?",
+  "section": 1
  },
  {
   "id": "PD1-185",
@@ -8285,7 +8471,8 @@
   "excluded": true,
   "duplicateOf": "PD1-120",
   "qText": "When using Salesforce DX, what does a developer need to enable to create and manage scratch orgs?",
-  "qCode": ""
+  "qCode": "",
+  "section": 3
  },
  {
   "id": "PD1-186",
@@ -8331,7 +8518,8 @@
   ],
   "excluded": true,
   "qText": "Which code in a Visualforce page and/or controller might present a security vulnerability?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-187",
@@ -8376,7 +8564,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer identifies the following triggers on the `Expense__c` object: deleteExpense, applyDefaultsToExpense, validateExpenseUpdate; The triggers process before delete, before insert, and before update events respectively. Which two techniques should the developer implement to ensure trigger best practices are followed? Choose 2 answers",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-188",
@@ -8420,7 +8609,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Universal Hiring uses Salesforce to capture job applications. A salesforce administrator created two custom objects; `Job__c` acting as the master object, `Job_Application__c` acting as the detail. Within the `Job__c` object, a custom multi-select picklist, `Preferred_Locations__c`, contains a list of approved states for the position. Each `Job_Application__c` record relates to a Contact within the system through a master-detail relationship. Recruiters have requested the ability to view whether the Contact's Mailing State value matches a value selected on the `Preferred_Locations__c` field, within the `Job_Application__c` record. Recruiters would like this value to be kept in sync if changes occur to the Contact's Mailing State. What is the recommended tool a developer should use to meet the business requirement?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-189",
@@ -8465,7 +8655,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "Which two are phases in the Aura application event propagation framework? Choose 2 answers",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-190",
@@ -8517,7 +8708,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer needs to allow users to complete a form on an Account record that will create a record for a custom object. The form needs to display different fields depending on the user?s job role. The functionality should only be available to's small group of users. Which three things should the developer do to satisfy these requirements? 3 answers",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-191",
@@ -8561,7 +8753,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer created this Apex trigger that calls MyClass.myStaticMethod:",
-  "qCode": "trigger myTrigger on Contact (before insert) {\n    MyClass.myStaticMethod(trigger.new);\n}\nThe developer creates a test class with a test method that calls MyClass.myStaticMethod directly, resulting in 81% overall code coverage. What happens when the developer tries to deploy the trigger and two classes to production, assuming no other code exists?"
+  "qCode": "trigger myTrigger on Contact (before insert) {\n    MyClass.myStaticMethod(trigger.new);\n}\nThe developer creates a test class with a test method that calls MyClass.myStaticMethod directly, resulting in 81% overall code coverage. What happens when the developer tries to deploy the trigger and two classes to production, assuming no other code exists?",
+  "section": 3
  },
  {
   "id": "PD1-192",
@@ -8605,7 +8798,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer created a new after insert trigger on the Lead object that creates Task records for each Lead. After deploying to production, an existing outside integration that inserts Lead records in batches to Salesforce is occasionally reporting total batch failures being caused by the Task insert statement. This causes the integration process in the outside system to stop, requiring a manual restart. Which change should the developer make to allow the integration to continue when some records in a batch cause failures due to the Task insert statement, so that manual restarts are not needed?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-193",
@@ -8649,7 +8843,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "developer is working on a project to import data from an external system into Salesforce. The data contains sensitive information that should not be visible to all users in Salesforce. What should the developer do to ensure that the data is secure?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-194",
@@ -8694,7 +8889,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer is implementing an Apex class for a financial system. Within the class, the variables ?creditAamount' and ?debitAmount? should not be able to change once a value Is assigned. In which two ways can the developer declare the variables to ensure their value can only be assigned one time?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-195",
@@ -8738,7 +8934,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "How is a controller and extension specified for a custom object named \"Notice\" on a Visualforce page?",
-  "qCode": ""
+  "qCode": "",
+  "section": 2
  },
  {
   "id": "PD1-196",
@@ -8782,7 +8979,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer is integrating with a legacy on-premise SQL database. What should the developer use to ensure the data being integrated is matched to the right records in Salesforce?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-197",
@@ -8827,7 +9025,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer has identified a method in an Apex class that performs resource intensive actions in memory by iterating over the result set of a SOQL statement on the account. The method also performs a DML statement to save the changes to the database. Which two techniques should the developer implement as a best practice to ensure transaction control and avoid exceeding governor limits?",
-  "qCode": ""
+  "qCode": "",
+  "section": 1
  },
  {
   "id": "PD1-198",
@@ -8875,7 +9074,8 @@
   "excluded": true,
   "duplicateOf": "PD1-200",
   "qText": "Which two Agent force limitations should a developer consider when building an agent?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-199",
@@ -8919,7 +9119,8 @@
   "needsVerification": [],
   "excluded": false,
   "qText": "A developer is using Agent force Dev Assistant and noticed that the output from their prompt resembles proprietary code. Which model training considerations should the developer be aware of when utilizing the extension?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-200",
@@ -8966,7 +9167,8 @@
   ],
   "excluded": false,
   "qText": "Which two Agentforce limitations should a developer consider when building an agent? (Choose 2 options)",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  },
  {
   "id": "PD1-201",
@@ -9012,6 +9214,7 @@
   ],
   "excluded": true,
   "qText": "A developer Receives an Error when compiling the following code: What is the error?",
-  "qCode": ""
+  "qCode": "",
+  "section": 0
  }
 ]

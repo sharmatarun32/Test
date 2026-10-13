@@ -6,7 +6,7 @@ const d=new JSDOM(html,{url:'http://localhost/',runScripts:'dangerously',virtual
 w.scrollTo=()=>{};const ok=(c,m)=>{console.log(c?'PASS':'FAIL',m);if(!c)f++},$=s=>D.querySelector(s),T=()=>D.body.textContent;
 const click=el=>el.dispatchEvent(new w.MouseEvent('click',{bubbles:true}));
 ok(T().includes('Salesforce PD1 Practice Arena')&&!$('.top'),'dashboard renders, no Home button needed there');
-click($('[data-s="p0"]'));ok(!!$('.exam')&&T().includes('Question 1 /'),'part 1 starts');
+click($('[data-s="s0"]'));ok(!!$('.exam')&&T().includes('Question 1 /'),'section 1 starts');
 ok(!!$('.top button'),'Home button visible in exam');
 const o=$('input[name=o]');o.checked=true;o.dispatchEvent(new w.Event('change',{bubbles:true}));
 ok(D.querySelectorAll('input[name=o]:checked').length===1,'answer selected & persists after re-render');
@@ -21,7 +21,8 @@ w.PD.rev('un');ok(T().includes('Answer review'),'review opens');
 w.PD.retry();ok(JSON.stringify(w.PD.state().order)!==order1,'retry reshuffles');
 click($('.top button'));click($('#y'));
 click($('[data-s="full"]'));ok(T().includes('/ 196'),'full test = 196 questions');
-let i=0;while(i<5){w.PD.nav(1);i++}
+click($('.top button'));click($('#y'));click($('[data-s="sim"]'));{const a=w.PD.state(),sc=a.qids.filter(i=>!a.trial[i]);ok(a.qids.length===65&&Object.keys(a.trial).length===5&&a.limit===6300&&sc.length===60,'simulation = 60 scored + 5 trial, 105 min');w.PD.finish();click($('#y'));ok(T().includes('Result: Fail')&&T().includes('Section-level scoring')&&T().includes('Developer Fundamentals'),'sim results: pass/fail + section scoring')}
+click($('.top button'));click($('[data-s="full"]'));let i=0;while(i<5){w.PD.nav(1);i++}
 click($('.top button'));click($('#y'));
 w.PD.reset();click($('#y'));{const t=T(),k=t.indexOf('Unfinished');console.log(k<0?'no Unfinished text':t.slice(k-40,k+80))}ok(!w.localStorage.getItem('pd1.active')&&!/Unfinished \w/.test(T()),'reset clears');
 console.log(errs.length?('JS ERRORS: '+errs.join(' | ')):'No JS errors');process.exit(f||errs.length?1:0)

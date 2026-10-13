@@ -3,8 +3,7 @@ ok(new Set(Q.map(q=>q.id)).size===Q.length,'unique IDs');
 ok(Q.every(q=>q.excluded||q.correctAnswers.every(a=>q.options.some(o=>o.id===a))),'correct IDs exist in options');
 ok(T.every(q=>q.options.length>=2&&q.correctAnswers.length>0),'testable questions have options+answers');
 ok(T.every(q=>(q.correctAnswers.length>1)===(q.type==='multiple')),'type matches answer count');
-const n=T.length,p=[0,1,2,3].map(i=>T.slice(Math.round(i*n/4),Math.round((i+1)*n/4)));
-ok(p.flat().length===n&&new Set(p.flat().map(q=>q.id)).size===n,'4 parts = '+p.map(x=>x.length)+' sum '+n);
+const need=[14,18,15,13],pool=[0,1,2,3].map(i=>T.filter(q=>q.section===i).length);ok(T.every(q=>[0,1,2,3].includes(q.section)),'every question has a section');ok(pool.every((c,i)=>c>=need[i]+0)&&pool.reduce((a,b)=>a+b)===T.length,'section pools '+pool+' cover simulation needs '+need);const n=T.length;
 function sh(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
 let bad=0,diff=0;T.forEach(q=>{const o1=sh(q.options.map(o=>o.id)),o2=sh(q.options.map(o=>o.id));if(o1.join()!==o2.join())diff++;
  const cor=o1.filter(id=>q.correctAnswers.includes(id));if(cor.sort().join()!==q.correctAnswers.slice().sort().join())bad++;});
